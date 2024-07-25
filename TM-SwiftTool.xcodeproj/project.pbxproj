@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215065582B8E528D001B9915 /* ScriptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215065572B8E528D001B9915 /* ScriptsView.swift */; };
+		2150655C2B8E6AE5001B9915 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150655B2B8E6AE5001B9915 /* LoadingView.swift */; };
+		215065712B8F056E001B9915 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215065702B8F056E001B9915 /* main.swift */; };
+		215065772B8F0E4F001B9915 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215065762B8F0E4F001B9915 /* Errors.swift */; };
+		215065792B8F14A7001B9915 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215065782B8F14A7001B9915 /* Functions.swift */; };
+		2150657B2B8F15A3001B9915 /* RootCMDHelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150657A2B8F15A3001B9915 /* RootCMDHelperProtocol.swift */; };
+		2150657C2B8F15A3001B9915 /* RootCMDHelperProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150657A2B8F15A3001B9915 /* RootCMDHelperProtocol.swift */; };
+		2150657E2B8F1B38001B9915 /* RootCMDHelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150657D2B8F1B38001B9915 /* RootCMDHelperClient.swift */; };
+		2150657F2B8F1B38001B9915 /* RootCMDHelperClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150657D2B8F1B38001B9915 /* RootCMDHelperClient.swift */; };
+		215065842B8F2B9C001B9915 /* RootCMDHelper in Embed RootCMDHelper */ = {isa = PBXBuildFile; fileRef = 2150656E2B8F056E001B9915 /* RootCMDHelper */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		217184832B7E74340095F9BA /* Songs in Resources */ = {isa = PBXBuildFile; fileRef = 217184822B7E74340095F9BA /* Songs */; };
+		21FC1BFB2B7C45FA006E4DBE /* AdminPasswordManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC1BFA2B7C45FA006E4DBE /* AdminPasswordManager.swift */; };
+		21FC1BFD2B7C4618006E4DBE /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC1BFC2B7C4618006E4DBE /* Shell.swift */; };
+		21FC1BFF2B7C462E006E4DBE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC1BFE2B7C462E006E4DBE /* Enums.swift */; };
+		21FC1C012B7C4640006E4DBE /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC1C002B7C4640006E4DBE /* Errors.swift */; };
+		21FC1C052B7C48DA006E4DBE /* SeniorReviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC1C042B7C48DA006E4DBE /* SeniorReviewViewModel.swift */; };
+		21FC1C072B7C48FF006E4DBE /* AddUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC1C062B7C48FF006E4DBE /* AddUserViewModel.swift */; };
+		21FC1C092B7C4BDA006E4DBE /* InfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FC1C082B7C4BDA006E4DBE /* InfoViewModel.swift */; };
+		4214361C2984944D00EA1839 /* SeniorReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4214361B2984944D00EA1839 /* SeniorReview.swift */; };
+		42C444DD29006903000BE3B2 /* TM_SwiftToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C444DC29006903000BE3B2 /* TM_SwiftToolApp.swift */; };
+		42C444DF29006903000BE3B2 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C444DE29006903000BE3B2 /* MainView.swift */; };
+		42C444E129006905000BE3B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C444E029006905000BE3B2 /* Assets.xcassets */; };
+		42C444E429006905000BE3B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42C444E329006905000BE3B2 /* Preview Assets.xcassets */; };
+		42C444EF29006905000BE3B2 /* TM_SwiftToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C444EE29006905000BE3B2 /* TM_SwiftToolTests.swift */; };
+		42C444F929006905000BE3B2 /* TM_SwiftToolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C444F829006905000BE3B2 /* TM_SwiftToolUITests.swift */; };
+		42C444FB29006905000BE3B2 /* TM_SwiftToolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C444FA29006905000BE3B2 /* TM_SwiftToolUITestsLaunchTests.swift */; };
+		42D247CA299E959700AF878F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D247C9299E959700AF878F /* InfoView.swift */; };
+		42D247CE299E9D1A00AF878F /* SeniorReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D247CD299E9D1A00AF878F /* SeniorReviewView.swift */; };
+		42D247D0299E9EA400AF878F /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D247CF299E9EA400AF878F /* AddUserView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215065802B8F227D001B9915 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C444D129006903000BE3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2150656D2B8F056E001B9915;
+			remoteInfo = RootCMDHelper;
+		};
+		42C444EB29006905000BE3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C444D129006903000BE3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C444D829006903000BE3B2;
+			remoteInfo = "TM-SwiftTool";
+		};
+		42C444F529006905000BE3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42C444D129006903000BE3B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42C444D829006903000BE3B2;
+			remoteInfo = "TM-SwiftTool";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2150656C2B8F056E001B9915 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		215065822B8F29F6001B9915 /* Embed RootCMDHelper */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				215065842B8F2B9C001B9915 /* RootCMDHelper in Embed RootCMDHelper */,
+			);
+			name = "Embed RootCMDHelper";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		215065572B8E528D001B9915 /* ScriptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsView.swift; sourceTree = "<group>"; };
+		2150655B2B8E6AE5001B9915 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		2150656E2B8F056E001B9915 /* RootCMDHelper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RootCMDHelper; sourceTree = BUILT_PRODUCTS_DIR; };
+		215065702B8F056E001B9915 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		215065752B8F05C3001B9915 /* RootCMDHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RootCMDHelper.entitlements; sourceTree = "<group>"; };
+		215065762B8F0E4F001B9915 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		215065782B8F14A7001B9915 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		2150657A2B8F15A3001B9915 /* RootCMDHelperProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCMDHelperProtocol.swift; sourceTree = "<group>"; };
+		2150657D2B8F1B38001B9915 /* RootCMDHelperClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootCMDHelperClient.swift; sourceTree = "<group>"; };
+		217184822B7E74340095F9BA /* Songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Songs; sourceTree = "<group>"; };
+		21FC1BFA2B7C45FA006E4DBE /* AdminPasswordManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPasswordManager.swift; sourceTree = "<group>"; };
+		21FC1BFC2B7C4618006E4DBE /* Shell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		21FC1BFE2B7C462E006E4DBE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		21FC1C002B7C4640006E4DBE /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		21FC1C042B7C48DA006E4DBE /* SeniorReviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorReviewViewModel.swift; sourceTree = "<group>"; };
+		21FC1C062B7C48FF006E4DBE /* AddUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewModel.swift; sourceTree = "<group>"; };
+		21FC1C082B7C4BDA006E4DBE /* InfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewModel.swift; sourceTree = "<group>"; };
+		4214361B2984944D00EA1839 /* SeniorReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorReview.swift; sourceTree = "<group>"; };
+		42C444D929006903000BE3B2 /* TM-SwiftTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TM-SwiftTool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C444DC29006903000BE3B2 /* TM_SwiftToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TM_SwiftToolApp.swift; sourceTree = "<group>"; };
+		42C444DE29006903000BE3B2 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		42C444E029006905000BE3B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42C444E329006905000BE3B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42C444EA29006905000BE3B2 /* TM-SwiftToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TM-SwiftToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C444EE29006905000BE3B2 /* TM_SwiftToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TM_SwiftToolTests.swift; sourceTree = "<group>"; };
+		42C444F429006905000BE3B2 /* TM-SwiftToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TM-SwiftToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C444F829006905000BE3B2 /* TM_SwiftToolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TM_SwiftToolUITests.swift; sourceTree = "<group>"; };
+		42C444FA29006905000BE3B2 /* TM_SwiftToolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TM_SwiftToolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42D247C9299E959700AF878F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		42D247CD299E9D1A00AF878F /* SeniorReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeniorReviewView.swift; sourceTree = "<group>"; };
+		42D247CF299E9EA400AF878F /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		6D22D0C4299EBA9300E51959 /* TM_SwiftTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TM_SwiftTool.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2150656B2B8F056E001B9915 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444D629006903000BE3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444E729006905000BE3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444F129006905000BE3B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2150656F2B8F056E001B9915 /* RootCMDHelper */ = {
+			isa = PBXGroup;
+			children = (
+				215065752B8F05C3001B9915 /* RootCMDHelper.entitlements */,
+				2150657A2B8F15A3001B9915 /* RootCMDHelperProtocol.swift */,
+				215065702B8F056E001B9915 /* main.swift */,
+				215065782B8F14A7001B9915 /* Functions.swift */,
+				215065762B8F0E4F001B9915 /* Errors.swift */,
+			);
+			path = RootCMDHelper;
+			sourceTree = "<group>";
+		};
+		21FC1BF72B7C4543006E4DBE /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				42D247C9299E959700AF878F /* InfoView.swift */,
+				42D247CD299E9D1A00AF878F /* SeniorReviewView.swift */,
+				42D247CF299E9EA400AF878F /* AddUserView.swift */,
+				215065572B8E528D001B9915 /* ScriptsView.swift */,
+				2150655B2B8E6AE5001B9915 /* LoadingView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		21FC1C022B7C47F1006E4DBE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21FC1BFC2B7C4618006E4DBE /* Shell.swift */,
+				21FC1BFE2B7C462E006E4DBE /* Enums.swift */,
+				21FC1C002B7C4640006E4DBE /* Errors.swift */,
+				2150657D2B8F1B38001B9915 /* RootCMDHelperClient.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21FC1C032B7C48A1006E4DBE /* Supporting View Models */ = {
+			isa = PBXGroup;
+			children = (
+				21FC1C082B7C4BDA006E4DBE /* InfoViewModel.swift */,
+				21FC1C042B7C48DA006E4DBE /* SeniorReviewViewModel.swift */,
+				21FC1C062B7C48FF006E4DBE /* AddUserViewModel.swift */,
+			);
+			path = "Supporting View Models";
+			sourceTree = "<group>";
+		};
+		42C444D029006903000BE3B2 = {
+			isa = PBXGroup;
+			children = (
+				42C444DB29006903000BE3B2 /* TM-SwiftTool */,
+				42C444ED29006905000BE3B2 /* TM-SwiftToolTests */,
+				2150656F2B8F056E001B9915 /* RootCMDHelper */,
+				42C444DA29006903000BE3B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42C444DA29006903000BE3B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42C444D929006903000BE3B2 /* TM-SwiftTool.app */,
+				42C444EA29006905000BE3B2 /* TM-SwiftToolTests.xctest */,
+				42C444F429006905000BE3B2 /* TM-SwiftToolUITests.xctest */,
+				2150656E2B8F056E001B9915 /* RootCMDHelper */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42C444DB29006903000BE3B2 /* TM-SwiftTool */ = {
+			isa = PBXGroup;
+			children = (
+				42C444DC29006903000BE3B2 /* TM_SwiftToolApp.swift */,
+				42C444DE29006903000BE3B2 /* MainView.swift */,
+				21FC1BF72B7C4543006E4DBE /* Supporting Views */,
+				21FC1C032B7C48A1006E4DBE /* Supporting View Models */,
+				4214361B2984944D00EA1839 /* SeniorReview.swift */,
+				21FC1BFA2B7C45FA006E4DBE /* AdminPasswordManager.swift */,
+				21FC1C022B7C47F1006E4DBE /* Resources */,
+				6D22D0C4299EBA9300E51959 /* TM_SwiftTool.entitlements */,
+				42C444E029006905000BE3B2 /* Assets.xcassets */,
+				217184822B7E74340095F9BA /* Songs */,
+				42C444E229006905000BE3B2 /* Preview Content */,
+			);
+			path = "TM-SwiftTool";
+			sourceTree = "<group>";
+		};
+		42C444E229006905000BE3B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				42C444F729006905000BE3B2 /* TM-SwiftToolUITests */,
+				42C444E329006905000BE3B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42C444ED29006905000BE3B2 /* TM-SwiftToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				42C444EE29006905000BE3B2 /* TM_SwiftToolTests.swift */,
+			);
+			path = "TM-SwiftToolTests";
+			sourceTree = "<group>";
+		};
+		42C444F729006905000BE3B2 /* TM-SwiftToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42C444F829006905000BE3B2 /* TM_SwiftToolUITests.swift */,
+				42C444FA29006905000BE3B2 /* TM_SwiftToolUITestsLaunchTests.swift */,
+			);
+			path = "TM-SwiftToolUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2150656D2B8F056E001B9915 /* RootCMDHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215065722B8F056E001B9915 /* Build configuration list for PBXNativeTarget "RootCMDHelper" */;
+			buildPhases = (
+				2150656A2B8F056E001B9915 /* Sources */,
+				2150656B2B8F056E001B9915 /* Frameworks */,
+				2150656C2B8F056E001B9915 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RootCMDHelper;
+			productName = RootCMDHelper;
+			productReference = 2150656E2B8F056E001B9915 /* RootCMDHelper */;
+			productType = "com.apple.product-type.tool";
+		};
+		42C444D829006903000BE3B2 /* TM-SwiftTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C444FE29006905000BE3B2 /* Build configuration list for PBXNativeTarget "TM-SwiftTool" */;
+			buildPhases = (
+				42C444D529006903000BE3B2 /* Sources */,
+				42C444D629006903000BE3B2 /* Frameworks */,
+				42C444D729006903000BE3B2 /* Resources */,
+				215065822B8F29F6001B9915 /* Embed RootCMDHelper */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215065812B8F227D001B9915 /* PBXTargetDependency */,
+			);
+			name = "TM-SwiftTool";
+			packageProductDependencies = (
+			);
+			productName = "TM-SwiftTool";
+			productReference = 42C444D929006903000BE3B2 /* TM-SwiftTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42C444E929006905000BE3B2 /* TM-SwiftToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C4450129006905000BE3B2 /* Build configuration list for PBXNativeTarget "TM-SwiftToolTests" */;
+			buildPhases = (
+				42C444E629006905000BE3B2 /* Sources */,
+				42C444E729006905000BE3B2 /* Frameworks */,
+				42C444E829006905000BE3B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C444EC29006905000BE3B2 /* PBXTargetDependency */,
+			);
+			name = "TM-SwiftToolTests";
+			productName = "TM-SwiftToolTests";
+			productReference = 42C444EA29006905000BE3B2 /* TM-SwiftToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42C444F329006905000BE3B2 /* TM-SwiftToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42C4450429006905000BE3B2 /* Build configuration list for PBXNativeTarget "TM-SwiftToolUITests" */;
+			buildPhases = (
+				42C444F029006905000BE3B2 /* Sources */,
+				42C444F129006905000BE3B2 /* Frameworks */,
+				42C444F229006905000BE3B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42C444F629006905000BE3B2 /* PBXTargetDependency */,
+			);
+			name = "TM-SwiftToolUITests";
+			productName = "TM-SwiftToolUITests";
+			productReference = 42C444F429006905000BE3B2 /* TM-SwiftToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42C444D129006903000BE3B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2150656D2B8F056E001B9915 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					42C444D829006903000BE3B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					42C444E929006905000BE3B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 42C444D829006903000BE3B2;
+					};
+					42C444F329006905000BE3B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 42C444D829006903000BE3B2;
+					};
+				};
+			};
+			buildConfigurationList = 42C444D429006903000BE3B2 /* Build configuration list for PBXProject "TM-SwiftTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42C444D029006903000BE3B2;
+			packageReferences = (
+			);
+			productRefGroup = 42C444DA29006903000BE3B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42C444D829006903000BE3B2 /* TM-SwiftTool */,
+				42C444E929006905000BE3B2 /* TM-SwiftToolTests */,
+				42C444F329006905000BE3B2 /* TM-SwiftToolUITests */,
+				2150656D2B8F056E001B9915 /* RootCMDHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42C444D729006903000BE3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217184832B7E74340095F9BA /* Songs in Resources */,
+				42C444E429006905000BE3B2 /* Preview Assets.xcassets in Resources */,
+				42C444E129006905000BE3B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444E829006905000BE3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444F229006905000BE3B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2150656A2B8F056E001B9915 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2150657C2B8F15A3001B9915 /* RootCMDHelperProtocol.swift in Sources */,
+				215065772B8F0E4F001B9915 /* Errors.swift in Sources */,
+				215065712B8F056E001B9915 /* main.swift in Sources */,
+				215065792B8F14A7001B9915 /* Functions.swift in Sources */,
+				2150657F2B8F1B38001B9915 /* RootCMDHelperClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444D529006903000BE3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2150657E2B8F1B38001B9915 /* RootCMDHelperClient.swift in Sources */,
+				42C444DF29006903000BE3B2 /* MainView.swift in Sources */,
+				4214361C2984944D00EA1839 /* SeniorReview.swift in Sources */,
+				21FC1C072B7C48FF006E4DBE /* AddUserViewModel.swift in Sources */,
+				215065582B8E528D001B9915 /* ScriptsView.swift in Sources */,
+				21FC1C092B7C4BDA006E4DBE /* InfoViewModel.swift in Sources */,
+				42C444DD29006903000BE3B2 /* TM_SwiftToolApp.swift in Sources */,
+				21FC1C052B7C48DA006E4DBE /* SeniorReviewViewModel.swift in Sources */,
+				42D247CA299E959700AF878F /* InfoView.swift in Sources */,
+				21FC1C012B7C4640006E4DBE /* Errors.swift in Sources */,
+				2150657B2B8F15A3001B9915 /* RootCMDHelperProtocol.swift in Sources */,
+				21FC1BFD2B7C4618006E4DBE /* Shell.swift in Sources */,
+				21FC1BFF2B7C462E006E4DBE /* Enums.swift in Sources */,
+				42D247CE299E9D1A00AF878F /* SeniorReviewView.swift in Sources */,
+				42D247D0299E9EA400AF878F /* AddUserView.swift in Sources */,
+				2150655C2B8E6AE5001B9915 /* LoadingView.swift in Sources */,
+				21FC1BFB2B7C45FA006E4DBE /* AdminPasswordManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444E629006905000BE3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C444EF29006905000BE3B2 /* TM_SwiftToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42C444F029006905000BE3B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C444F929006905000BE3B2 /* TM_SwiftToolUITests.swift in Sources */,
+				42C444FB29006905000BE3B2 /* TM_SwiftToolUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215065812B8F227D001B9915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2150656D2B8F056E001B9915 /* RootCMDHelper */;
+			targetProxy = 215065802B8F227D001B9915 /* PBXContainerItemProxy */;
+		};
+		42C444EC29006905000BE3B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C444D829006903000BE3B2 /* TM-SwiftTool */;
+			targetProxy = 42C444EB29006905000BE3B2 /* PBXContainerItemProxy */;
+		};
+		42C444F629006905000BE3B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42C444D829006903000BE3B2 /* TM-SwiftTool */;
+			targetProxy = 42C444F529006905000BE3B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		215065732B8F056E001B9915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = RootCMDHelper/RootCMDHelper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 225WY9GR2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftTool.RootCMDHelper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		215065742B8F056E001B9915 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = RootCMDHelper/RootCMDHelper.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 225WY9GR2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftTool.RootCMDHelper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42C444FC29006905000BE3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42C444FD29006905000BE3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		42C444FF29006905000BE3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "TM-SwiftTool/TM_SwiftTool.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TM-SwiftTool/Preview Content\"";
+				DEVELOPMENT_TEAM = 225WY9GR2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TM-SwiftTool";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		42C4450029006905000BE3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "TM-SwiftTool/TM_SwiftTool.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TM-SwiftTool/Preview Content\"";
+				DEVELOPMENT_TEAM = 225WY9GR2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "TM-SwiftTool";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		42C4450229006905000BE3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TM-SwiftTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TM-SwiftTool";
+			};
+			name = Debug;
+		};
+		42C4450329006905000BE3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TM-SwiftTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TM-SwiftTool";
+			};
+			name = Release;
+		};
+		42C4450529006905000BE3B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TM-SwiftTool";
+			};
+			name = Debug;
+		};
+		42C4450629006905000BE3B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ResLab.TM-SwiftToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "TM-SwiftTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215065722B8F056E001B9915 /* Build configuration list for PBXNativeTarget "RootCMDHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215065732B8F056E001B9915 /* Debug */,
+				215065742B8F056E001B9915 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C444D429006903000BE3B2 /* Build configuration list for PBXProject "TM-SwiftTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C444FC29006905000BE3B2 /* Debug */,
+				42C444FD29006905000BE3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C444FE29006905000BE3B2 /* Build configuration list for PBXNativeTarget "TM-SwiftTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C444FF29006905000BE3B2 /* Debug */,
+				42C4450029006905000BE3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C4450129006905000BE3B2 /* Build configuration list for PBXNativeTarget "TM-SwiftToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C4450229006905000BE3B2 /* Debug */,
+				42C4450329006905000BE3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42C4450429006905000BE3B2 /* Build configuration list for PBXNativeTarget "TM-SwiftToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42C4450529006905000BE3B2 /* Debug */,
+				42C4450629006905000BE3B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42C444D129006903000BE3B2 /* Project object */;
+}
